@@ -1,0 +1,75 @@
+/*======== Common CSS Start ========*/
+@font-face {
+    font-family: inter;
+    src: url("../fonts/Inter-VariableFont_opsz\,wght.ttf");
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: inter, sans-serif;
+    outline: none;
+}
+:root {
+    --primary-color: #5956E8;
+    --primary-color-black: #000000;
+    --primary-color-white: #ffffff;
+}
+.container {
+    width: 1320px;
+    margin: 0 auto;
+}
+li {
+    list-style-type: none;
+}
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+img {
+    vertical-align: middle;
+}
+/*======== Common CSS End ========*/
+
+
+/*======== Form Design Start ========*/
+body {
+    background-color: #4D869C;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form {
+    width: 20%;
+    background-color: #EEF7FF;
+    padding: 25px;
+    border-radius: 5px;
+}
+h2 {
+    text-align: center;
+    color: #4D869C;
+}
+hr {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #4D869C;
+}
+a {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 5px;
+    margin-top: 15px;
+    border-radius: 5px;
+    border: 1px solid #4D869C;
+    color: #EEF7FF;
+    background-color: #4D869C;
+    text-align: center;
+}
+#logout {
+    background-color: #CDE8E5;
+    color: #4D869C;
+}
+
+/*======== Form Design End ========*/

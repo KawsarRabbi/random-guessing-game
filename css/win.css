@@ -1,0 +1,72 @@
+/*======== Common CSS Start ========*/
+@font-face {
+    font-family: inter;
+    src: url("../fonts/Inter-VariableFont_opsz\,wght.ttf");
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: inter, sans-serif;
+    outline: none;
+}
+:root {
+    --primary-color: #5956E8;
+    --primary-color-black: #000000;
+    --primary-color-white: #ffffff;
+}
+.container {
+    width: 1320px;
+    margin: 0 auto;
+}
+li {
+    list-style-type: none;
+}
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+img {
+    vertical-align: middle;
+}
+/*======== Common CSS End ========*/
+
+body {
+    background-image: url('../images/you_win.jpg');
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+
+.playAgainDivWin {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 250px;
+    background-color: #CDE8E5;
+    text-align: center;
+    padding: 25px;
+    border-radius: 5px;
+    border: 1px solid #4D869C;
+}
+
+button#playAgainButtonWin {
+    width: 100%;
+    padding:  10px;
+    background-color: #4D869C;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid #4D869C;
+    cursor: pointer;
+    margin-top: 20px;
+}
+button#cancelButtonWin {
+    width: 100%;
+    padding:  10px;
+    background-color: #EEF7FF;
+    color: black;
+    border-radius: 5px;
+    border: 1px solid #4D869C;
+    cursor: pointer;
+    margin-top: 10px;
+}

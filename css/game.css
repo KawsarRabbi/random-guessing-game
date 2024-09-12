@@ -1,0 +1,69 @@
+/*======== Common CSS Start ========*/
+@font-face {
+    font-family: inter;
+    src: url("../fonts/Inter-VariableFont_opsz\,wght.ttf");
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: inter, sans-serif;
+    outline: none;
+}
+:root {
+    --primary-color: #5956E8;
+    --primary-color-black: #000000;
+    --primary-color-white: #ffffff;
+}
+.container {
+    width: 1320px;
+    margin: 0 auto;
+}
+li {
+    list-style-type: none;
+}
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+img {
+    vertical-align: middle;
+}
+/*======== Common CSS End ========*/
+
+body {
+    background-color: #4D869C;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#lifeIndecator {
+    margin-bottom: 10px;
+    color: #EEF7FF;
+}
+form#player {
+    width: 20%;
+    background-color: #EEF7FF;
+    padding: 25px;
+    border-radius: 5px;
+}
+form#player h2 {
+    color: #4D869C;
+}
+form#player input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 5px;
+    margin-top: 15px;
+    border-radius: 5px;
+    border: 1px solid #4D869C;
+}
+input#buttonNext, input#buttonSubmit {
+    background-color: #4D869C;
+    border: none;
+    cursor: pointer;
+    color: #EEF7FF;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+    <link rel="shortcut icon" href="images/js_logo.png" type="image/x-icon">
+    <!-- My Custom CSS -->
+    <link rel="stylesheet" href="css/index.css">
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    
+    <form>
+        <h2>Login</h2>
+        <p class="title">Enter your email address and password to login your account</p>
+        <hr>
+        <input type="email" name="email" id="email" placeholder="Email Address" maxlength="50">
+        <p class="errorMessage email">Please enter your email address</p>
+        <div class="passwordDiv">
+            <input type="password" name="password" id="password" placeholder="Password" maxlength="16">
+            <i class="fa-regular fa-eye" id="eyeOff"></i>
+        </div>
+        <p class="errorMessage password">Please enter your password</p>
+        <input type="button" name="button" id="button" value="Login">
+    </form>
+    
+    
+    <script src="js/index.js"></script>
+</body>
+</html>
